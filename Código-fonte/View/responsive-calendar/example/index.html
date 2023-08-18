@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Calendar Widget that will make your day</title>
+    <meta name="distributor" content="Global" />
+    <meta itemprop="contentRating" content="General" />
+    <meta name="robots" content="All" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="description" content="The source of truly unique and awesome jquery plugins." />
+    <meta name="keywords" content="slider, carousel, responsive, swipe, one to one movement, touch devices, jquery, plugin, bootstrap compatible, html5, css3" />
+    <meta name="author" content="w3widgets.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Economica' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <!-- Respomsive slider -->
+    <link href="../css/responsive-calendar.css" rel="stylesheet">
+      <link href="../css/logo-nav.css" rel="stylesheet">
+  </head>
+  <body>
+       <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img  class="img-responsive2" src="imagem2.png" alt="" style="width:200px; padding-top:10px;">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav" style="padding:5px">
+                    
+                    <li >
+                              <a href="../../index.php" style=" ">Home</a>
+                    </li>     
+                     <li >
+                              <a href="index.html">Calendário</a>
+                    </li>  
+                     <li >
+                               <button type="button"  id ="mm" class="btn btn-info btn-lg " data-toggle="modal" data-target="#myModal" ">Receber notificações</button>
+                    </li>
+                      
+
+  <!-- Modal -->
+
+  
+                                
+                            </ul>
+                        
+              
+                
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+      <br/><br/><br>
+    <div class="container">
+      <!-- Responsive calendar - START -->
+    	<div class="responsive-calendar">
+        <div class="controls">
+            <a class="pull-left" data-go="prev"><div class="btn btn-primary">Anterior</div></a>
+            <h4><span data-head-year></span> <span data-head-month></span></h4>
+            <a class="pull-right" data-go="next"><div class="btn btn-primary">Próximo</div></a>
+        </div><hr/>
+        <div class="day-headers">
+            <div class="day header">Seg</div>
+          <div class="day header">Ter</div>
+          <div class="day header">Qua</div>
+          <div class="day header">Qui</div>
+          <div class="day header">Sex</div>
+          <div class="day header">Sab</div>
+          <div class="day header">Dom</div>
+        </div>
+        <div class="days" data-group="days">
+          
+        </div>
+      </div>
+      <!-- Responsive calendar - END -->
+    </div>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/responsive-calendar.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".responsive-calendar").responsiveCalendar({
+          time: '2017-05',
+          events: {
+            "2017-04-30": {"number": 5, "url": "http://w3widgets.com/responsive-slider"},
+            "2017-04-26": {"number": 1, "url": "http://w3widgets.com"}, 
+            "2017-07-02":{"number": 1}, 
+            "2017-06-12": {}}
+        });
+      });
+    </script>
+  </body>
+</html>

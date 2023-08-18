@@ -1,0 +1,36 @@
+<?php
+
+     $host= "localhost";
+    $user = "root";
+    $password = "";
+    $database = "e_note";
+    $conexao= mysqli_connect($host, $user, $password, $database);
+echo "<form method='post' action='teste.php' >";
+echo "<select name='looo[]'multiple='multiple'>";
+$i=0;
+
+    $consulta = mysqli_query($conexao, "  SELECT g.idCurso, c.nome FROM curso g JOIN curso_has_disciplina  a ON g.idCurso=a.curso_idCurso JOIN disciplina c ON c.idDisciplina=a.disciplina_idDisciplina;");
+     $campos = mysqli_num_rows($consulta);
+     if ($campos != 0) {
+// se o usuario existi verifica a senha dele
+            while ($query = mysqli_fetch_array($consulta)) {
+
+echo"<option value='$i'>".$query["nome"]."</option>";
+$i++;
+            }
+     }
+
+echo "<input type='submit' value='Enviar'/>";
+echo "</form>";
+        ?>
+<?php
+foreach($_POST['looo'] as $item){
+      echo $item .'<br>';   
+   }
+
+?>
+
+
+
+
+ 

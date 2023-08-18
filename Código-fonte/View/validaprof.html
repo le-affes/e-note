@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Cadastro</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+       
+        <!-- Custom CSS -->
+        <link href="css/logo-nav.css" rel="stylesheet">
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img  class="img-responsive2" src="imagem2.png" alt="" style="width:200px; padding-top:10px;">
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                   
+                    <ul class="nav navbar-nav" style="padding:5px">
+                     
+                        <li >
+                              <a href="index.html" style=" ">Home</a>
+                    </li>     
+                     <li >
+                              <a href="validaprof.html">Validar Professor</a>
+                    </li>  
+                     <li >
+                              <a href="turma.html">Nova turma</a>
+                    </li>
+                     <li >
+                              <a href="index.html">Logout</a>
+                    </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+ <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 hidden-sm col-lg-2 ">
+
+                </div>
+                
+                <div class="col-md-8 col-lg-8 hidden-sm col-lg-8  ">
+                    <h2 class="rrr">Validar professor</h2>
+                    <p class="ff"  >Professor: Tiago Alves<br>
+                        E-mail: tiago.alves@cefetmg<br>
+                        Disciplinas:<br>
+                        • PW-1º Informática<br>
+                        • AW-2º Informática<br>
+                        • AW-3º Informática<br/>
+                             <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalll" id="butaum2">Validar</button>
+                         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalll" id="butaum3" style="background-color:rgb(231, 76, 60) !important;">Descartar</button>
+                    </p>
+
+                </div>
+
+
+            </div>
+            <div class="col-md-2 hidden-sm col-lg-2 hidden-xs ">
+
+            </div>
+      <div class="row">
+                <div class="hidden-lg  col-sm-8 hidden-md  hidden-xs ">
+    <h2 class="rrr">Validar professor</h2>
+                    <p class="ff"  >Professor: Tiago Alves<br>
+                        E-mail: tiago.alves@cefetmg<br>
+                        Disciplinas:<br>
+                        • PW-1º Informática<br>
+                        • AW-2º Informática<br>
+                        • AW-3º Informática<br/>
+                             <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalll" id="butaum2">Validar</button>
+                         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalll" id="butaum3" style="background-color:rgb(231, 76, 60) !important;">Descartar</button>
+                    </p>
+                </div>
+                
+             
+
+
+            </div>
+            <div class="hidden-lg  col-sm-2 hidden-md hidden-xs ">
+
+            </div>
+        </div>
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Login</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-signin">
+                            <label for="inputEmail" class="sr-only">Email: </label>
+                            <input type="email" id="inputEmail" class="form-control" placeholder="Email: " required autofocus>
+                            <label for="inputPassword" class="sr-only" >Senha: </label>
+                            <input type="password" id="inputPassword" class="form-control" placeholder="Senha: " required >
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="remember-me"> Lembrar-me dos dados 
+                                </label>
+                            </div>
+                            <!--<a href="admin.html"><button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button></a>-->
+                            <a href="professor.html"><button type="button" class="btn btn-info btn-lg">Entrar</button></a>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+      
+    </body>
+</html>

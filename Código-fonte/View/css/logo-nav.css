@@ -1,0 +1,368 @@
+/*
+ * Start Bootstrap - Logo Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; 
+    background-color:rgb(242,241,239);
+    background-size: cover;
+    font-family:Calibri Light !important;
+
+       
+    /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+th{
+    width:20px;
+}
+.btn btn-primary{
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.responsive-calendar .day a {
+    font-size:200%;
+}
+.tipo{
+    height: 34px;
+    width: 100%;
+    border-radius: 4px;
+}
+.btn-info {
+    background-color:rgb(39, 174, 96) !important;
+   
+}
+.btn-primary{
+     background-color:rgb(39, 174, 96) !important;
+     
+}
+.nav nav-pills nav-stacked{
+    background-color:red;
+    
+}
+.day-headers{
+
+}
+.h4, h4{
+    font-size:26px;
+}
+
+.btn-info:hover {
+    color:black;
+   
+}
+
+#mm{
+    margin-right:5px;
+    margin-right:5px;
+    
+    color:white;
+    background-color:rgb(44, 62, 80)!important;
+    border:none;
+    font-size:100%
+    
+}
+#hh{
+    margin-right:5px;
+      margin-right:5px;
+      width:80px;
+    color:rgb(39, 174, 96);
+    background-color:white!important;
+    border:none;
+    font-size:150%
+}
+#gg{
+     margin-right:5px;
+    margin-right:5px;
+      width:80px;
+    color:rgb(39, 174, 96);
+    background-color:rgb(44, 62, 80)!important;
+    border:none;
+    font-size:150%
+    
+}
+.jumbotron{
+    font-size:150%;
+}
+nav navbar-nav{
+    padding-top:15px;
+}
+a{
+    color:white;
+}
+.ff{
+    font-size:150%;
+}
+#butaum3{
+    background-color: rgb(231, 76, 60);
+}
+.rrr{
+    font-size:200%;
+    color:rgb(39, 174, 96);
+}
+.nav>li>a:focus, .nav>li>a:hover {
+     color:#2c3e50 ;
+    background-color: #95a5a6;
+    
+}
+.btn-default{
+     background-color:rgb(231, 76, 60)!important;
+     padding:10px 16px;
+     font-size:18px;
+         line-height: 1.3333333;
+    border-radius: 6px;
+    border-color: #46b8da;
+    color: #fff;
+    margin-left:10px;
+     
+}
+#imputPassword{
+    margin-top: 10px;
+}
+.modal-title{
+    font-size:60%;
+    
+}
+.modal-header{
+    background-color:rgb(39, 174, 96) !important ;
+    color:white;
+    text-align:center;
+    font-size:300%
+}
+.dropdown-menu>li>a {
+
+    font-size:150% !important;
+    
+}
+.navbar-nav>li>a{
+ 
+}
+
+.imgh{
+    width:100%;
+    
+    background-size: cover;
+}
+.dropdown-menu{
+	width: 100% !important;
+	min-width: 0 !important;
+}
+
+.dropdown:not(.ignoreCss){
+	min-width: 0 !important;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+       padding-top:15px !important;
+    
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color:white ;
+    background-color: #95a5a6;
+    
+}
+.navbar-toggle{
+    margin-top:20px;
+}
+.navbar-inverse .navbar-nav{
+    
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: rgb(39, 174, 96);
+ 
+    
+}
+
+.navbar-fixed-top .nav {
+    font-family:Calibri Light !important;
+    font-size:150% !important;
+    
+       padding-top:10px !important;
+    height:100%;
+    padding-bottom: 15px;
+  
+        margin-bottom:0px;
+    background-color:#2c3e50;
+}
+.navbar{
+      background-color:#2c3e50;
+}
+.img-responsive2 {
+    display: inline-block;
+}
+.collapse navbar-collapse{
+    width:100px;
+}
+.navbar-header{
+    padding-bottom:1%;
+    height:70px;
+    background-color: #2c3e50;
+    
+}
+.navbar-fixed-top .navbar-brand {
+   
+}
+
+.navbar-brand{
+    padding-bottom:0px;
+    
+    margin-bottom:0px;
+}
+.navbar-brand>img {
+    padding-left:5px;
+}
+
+.dropdown:not(.ignoreCss) {
+    min-width:160px;
+}
+
+
+
+
+.btn btn-primary{
+       background-color:rgb(155, 89, 182) !important;
+}
+.navbar-fixed-top .navbar-brand {
+	padding: 0 0;
+}
+h2{
+    text-align:center;
+    font-size:140%;
+    font-family:Calibri Light !important;
+        
+}
+.day header{
+     font-family:Calibri Light !important;
+}
+.col-md-8{
+   
+    background-color: white;
+    padding:5%;
+    margin-bottom:2%;
+    box-shadow: 1px 1px 1px 1px grey ;
+  
+}
+.col-md-2{
+     
+    background-color:#DDDDDD ;
+    
+
+}
+.col-sm-8{
+    
+    background-color: white;
+    padding:5%;
+    margin-top:10%;
+    margin-left:16%;
+    margin-right:20%;
+    
+    box-shadow: 1px 1px 1px 1px grey ;
+  
+}
+.col-sm-2{
+     
+    background-color:#DDDDDD ;
+    
+
+}
+.col-lg-8{
+   
+    background-color: white;
+    padding:5%;
+    margin-bottom:2%;
+    box-shadow: 1px 1px 1px 1px grey ;
+  
+}
+.col-lg-2{
+     
+    background-color:#DDDDDD ;
+    
+
+}
+.col-md-8{
+   
+    background-color: white;
+    padding:5%;
+    margin:auto;
+    box-shadow: 1px 1px 1px 1px grey ;
+  
+}
+.col-md-2{
+     
+    background-color:#DDDDDD ;
+    
+
+}
+.col-xs-8{
+   
+    background-color: white;
+    padding:5%;
+    margin-bottom:2%;
+    box-shadow: 1px 1px 1px 1px grey ;
+  
+}
+.col-xs-2{
+     
+    background-color:#DDDDDD ;
+    
+
+}
+#kkk{
+    float:right;
+    background-color:red;
+}
+.nav-pills{
+    width:60px;
+    background-color:white;
+    border-top:none;
+    border-bottom:rgb(155, 89, 182);
+    border-left:none;
+    border-right:none;
+        
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    color:black;
+    text-align:left;
+    background-color:white;
+    border-top:none;
+    border-bottom-color:rgb(155, 89, 182);
+    border-bottom-style:solid;
+    border-bottom-width:3px;
+    padding-left:7px;
+    border-left:none;
+    border-right:none;
+    margin-bottom:40%;
+        
+}
+
+.nav-pills>li>a{
+	
+        border-radius:1px;
+        margin-right:0px;
+        padding-bottom:10%;
+}
+
+option{
+   max-width:100%;
+}
+#formu{
+    margin-left:20%;
+     margin-right:20%;
+     background-color:white;
+     padding:20px;
+}
+.responsive-calendar .day a {
+    font-size:150%;
+    }
+ .responsive-calendar .day :hover {
+  background-color: rgb(39, 174, 96) !important;
+    }
+    
+    .ms-choice{
+    border:none;
+}
